@@ -10,7 +10,6 @@ public class PathAnimation extends Animation {
 	private float[] pos = new float[2];
 	public PathAnimation(Path path) {
 		measure = new PathMeasure(path, false);
-		measure.getPosTan(0, pos, null);
 	}
 	
 	@Override
